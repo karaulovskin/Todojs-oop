@@ -1,0 +1,22 @@
+/*Vendors*/
+
+@import "../../node_modules/normalize.css/normalize.css";
+@import "../../node_modules/swiper/dist/css/swiper.min.css";
+@import "../../node_modules/magnific-popup/dist/magnific-popup.css";
+@import "../../node_modules/pickmeup/css/pickmeup.css";
+
+@import "./variables.css";
+@import "./media.css";
+@import "./grid.css";
+@import "./icons.css";
+@import "./styles.css";
+@import "./fonts.css";
+@import "./forms.css";
+
+/*All components*/
+
+@import "./components/*.css";
+
+/*Main styles*/
+
+@import "./helpers.css";

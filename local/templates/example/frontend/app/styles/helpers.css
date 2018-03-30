@@ -1,0 +1,17 @@
+.hidden-mobile {
+    @media (--mobile) {
+        display: none !important;
+    }
+}
+
+.visible-mobile {
+    @media (--mobile-above) {
+        display: none !important;
+    }
+}
+
+.hidden-desktop-below {
+    @media (--full-below) {
+        display: none !important;
+    }
+}
